@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "rps-mobile",
+    "slug": "rps-mobile",
+    "platforms": [
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourname.rpsmobile"
+    },
+    "android": {
+      "package": "com.yourname.rpsmobile",
+      "versionCode": 1
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5c26007c-74da-404e-ac6d-f4a562b08d95"
+      }
+    },
+    "owner": "jsenges"
+  }
+}
